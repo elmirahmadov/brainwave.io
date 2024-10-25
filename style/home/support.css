@@ -1,0 +1,6 @@
+@import url("./header.css");
+@import url("./footer.css");
+
+.color-header {
+  color: var(--Text_Color_5);
+}

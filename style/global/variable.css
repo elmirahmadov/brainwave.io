@@ -1,0 +1,21 @@
+:root {
+  /* BACK GROUND COLORS */
+  --BG_Color_1: #f4f7fa;
+  --BG_Color_2: #473bf0;
+  --BG_Color_3: #ffffff;
+  --BG_Color_4: #161c2d;
+
+  /* TEXT COLORS */
+  --Text_Color_1: #161c2d;
+  --Text_Color_2: #ffffff;
+  --Text_Color_3: rgb(121, 120, 120);
+  --Text_Color_4: #473bf0;
+  --Text_Color_5: #fb6d45;
+
+  /* BORDER  */
+  --Border_Color_1: #e7e9ed;
+
+  /* FONTS */
+  --Font_Roboto: "Roboto", sans-serif;
+  --Font_Rubik: Rubik;
+}
