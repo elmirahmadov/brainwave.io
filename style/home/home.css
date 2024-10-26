@@ -460,6 +460,7 @@
   flex-direction: column;
   align-items: center;
   background-color: var(--BG_Color_1);
+  padding-top: 98px;
 }
 
 .news-helps p:first-child {
