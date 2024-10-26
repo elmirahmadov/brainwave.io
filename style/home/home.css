@@ -459,6 +459,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: var(--BG_Color_1);
 }
 
 .news-helps p:first-child {
@@ -489,6 +490,7 @@
   gap: 30px;
   justify-content: center;
   padding-bottom: 140px;
+  background-color: var(--BG_Color_1);
 }
 
 .nh-div-1 {
@@ -530,6 +532,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 120px;
 }
 
 .main-end-1 {
@@ -577,6 +580,8 @@
   width: 166px;
   height: 50px;
   border-radius: 8px;
+  border: none;
+  color: var(--Text_Color_2);
 }
 
 .main-btn:hover {
