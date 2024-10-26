@@ -4,6 +4,7 @@
   --BG_Color_2: #473bf0;
   --BG_Color_3: #ffffff;
   --BG_Color_4: #161c2d;
+  --BG_Color_5: #68d585;
 
   /* TEXT COLORS */
   --Text_Color_1: #161c2d;
@@ -11,6 +12,8 @@
   --Text_Color_3: rgb(121, 120, 120);
   --Text_Color_4: #473bf0;
   --Text_Color_5: #fb6d45;
+  --Text_Color_6: #68d585;
+  --Text_Color_7: #f64b4b;
 
   /* BORDER  */
   --Border_Color_1: #e7e9ed;

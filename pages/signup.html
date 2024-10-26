@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign up</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="../style/global/global.css" />
+
     <link rel="stylesheet" href="../style/home/signup.css" />
   </head>
   <body>
@@ -20,20 +21,29 @@
     <main>
       <div class="login-div-main container">
         <div class="login-div-p">
-          <p>Login</p>
-          <p>To get started, you need to sign in here.</p>
+          <p>Sign up</p>
+          <p>To get started, you need to sign up here.</p>
         </div>
         <div class="login-div-mid">
           <div class="login-div-mid-content">
-            <label for="email" class="login-label">Email</label>
+            <label for="email" class="login-label">First & Last Name</label>
             <input
               type="email"
               id="email"
               class="login-input"
-              placeholder="i.e. john@mail.com"
+              placeholder="i.e. John Doe"
             />
           </div>
 
+          <div class="login-div-mid-content">
+            <label for="password" class="login-label">Email</label>
+            <input
+              type="password"
+              id="password"
+              class="login-input"
+              placeholder="i.e. john@mail.com"
+            />
+          </div>
           <div class="login-div-mid-content">
             <label for="password" class="login-label">Password</label>
             <input
@@ -43,11 +53,20 @@
               placeholder="********"
             />
           </div>
-          <btn class="login-btn">Sign In</btn>
+          <div class="login-div-mid-content">
+            <label for="password" class="login-label">Confirm Password</label>
+            <input
+              type="password"
+              id="password"
+              class="login-input"
+              placeholder="********"
+            />
+          </div>
+          <btn class="login-btn">Create an account</btn>
         </div>
         <div class="login-div-end">
-          <p>Don’t have an account?</p>
-          <a href="#">Create an account</a>
+          <p>Already have an account?</p>
+          <a href="#">Sign in now</a>
         </div>
       </div>
 
