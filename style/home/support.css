@@ -1,0 +1,72 @@
+@import url("./header.css");
+@import url("./footer.css");
+
+.color-header {
+  color: var(--Text_Color_5);
+}
+
+.support {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.support p:first-child {
+  font-family: var(--Font_Roboto);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: -2px;
+  text-align: center;
+  padding-bottom: 44px;
+  padding-top: 88px;
+}
+
+.support p:last-child {
+  font-family: var(--Font_Roboto);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: center;
+  width: 600px;
+  padding-bottom: 40px;
+}
+
+/* ... */
+
+.support-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 210px;
+}
+
+.support-end-p1 {
+  width: 732px;
+  font-family: var(--Font_Roboto);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  padding-bottom: 44px;
+}
+
+.support-end-p2 {
+  font-family: var(--Font_Roboto);
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.support-icon {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+.support-icon-2 {
+  padding-bottom: 44px;
+}
